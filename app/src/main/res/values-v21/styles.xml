@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="android:Theme.Material.Light">
+        <item name="android:colorPrimary">@color/primary </item>
+        <item name="android:colorPrimaryDark">@color/primary_dark </item>
+        <item name="android:colorAccent"> @color/accent</item>
+    </style>
+    <style name="FloatingActionButton" parent="android:Widget.Material.Button">
+        <item name="android:background">@drawable/fab_background</item>
+        <item name="android:stateListAnimator">@drawable/fab_state_list_animator</item>
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">56dp</item>
+    </style>
+</resources>
